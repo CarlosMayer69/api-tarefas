@@ -14,39 +14,7 @@ CRUD completo de tarefas /
 Relacionamento entre Usuário e Tarefa.
 
 
-Tecnologias utilizadas:
-
-
-Node.js / 
-Express / 
-MongoDB / 
-Mongoose / 
-JWT / 
-Bcrypt.
-
-
-Rotas
-
-
-Usuários:
-
-POST /api/users/register
-
-POST /api/users/login
-
-
-Tarefas:
-
-GET /api/tasks
-
-POST /api/tasks
-
-PUT /api/tasks/
-
-DELETE /api/tasks/
-
-
-Autor: 
+Autor 
 Carlos Mayer FATEC ZL
 
 
