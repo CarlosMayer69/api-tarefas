@@ -6,40 +6,47 @@ Projeto desenvolvido utilizando Node.js, Express, MongoDB e arquitetura MVC.
 
 Funcionalidades:
  
-Cadastro de usuários 
-Login com JWT 
-Criptografia de senhas com Bcrypt 
-Middleware de autenticação 
-CRUD completo de tarefas 
-Relacionamento entre Usuário e Tarefa
+Cadastro de usuários / 
+Login com JWT / 
+Criptografia de senhas com Bcrypt / 
+Middleware de autenticação / 
+CRUD completo de tarefas / 
+Relacionamento entre Usuário e Tarefa.
 
 
 Tecnologias utilizadas:
 
 
-Node.js 
-Express 
-MongoDB 
-Mangoose 
-JWT 
-Bcrypt
+Node.js / 
+Express / 
+MongoDB / 
+Mongoose / 
+JWT / 
+Bcrypt.
 
 
-Rotas:
+Rotas
 
 
-Usuários 
-POST /api/users/register 
+Usuários:
+
+POST /api/users/register
+
 POST /api/users/login
 
 
-Tarefas 
-GET /api/tasks 
-POST /api/tasks 
-PUT /api/tasks/ 
+Tarefas:
+
+GET /api/tasks
+
+POST /api/tasks
+
+PUT /api/tasks/
+
 DELETE /api/tasks/
 
 
 Autor: 
 Carlos Mayer FATEC ZL
+
 
