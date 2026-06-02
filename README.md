@@ -1,44 +1,35 @@
-# API RESTful de Gerenciamento de Tarefas
+API RESTful de Gerenciamento de Tarefas
 
 Projeto desenvolvido utilizando Node.js, Express, MongoDB e arquitetura MVC.
 
-## Funcionalidades
+Funcionalidades:
+  Cadastro de usuários
+  Login com JWT
+  Criptografia de senhas com Bcrypt
+  Middleware de autenticação
+  CRUD completo de tarefas
+  Relacionamento entre Usuário e Tarefa
+  
+Tecnologias utilizadas:
+  Node.js
+  Express
+  MongoDB
+  Mangoose
+  JWT
+  Bcrypt
+  
+Rotas:
 
-* Cadastro de usuários
-* Login com JWT
-* Criptografia de senhas com Bcrypt
-* Middleware de autenticação
-* CRUD completo de tarefas
-* Relacionamento entre Usuário e Tarefa
-
-## Tecnologias
-
-* Node.js
-* Express
-* MongoDB
-* Mongoose
-* JWT
-* Bcrypt
-
-## Rotas
-
-### Usuários
-
+Usuários
 POST /api/users/register
-
 POST /api/users/login
 
-### Tarefas
-
+Tarefas
 GET /api/tasks
-
 POST /api/tasks
+PUT /api/tasks/
+DELETE /api/tasks/
 
-PUT /api/tasks/:id
-
-DELETE /api/tasks/:id
-
-## Autor
-
-Carlos Mayer
+Autor
+Carlos Mayer 
 FATEC ZL
